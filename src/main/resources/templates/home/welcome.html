@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>Spring Boot App</title>
+</head>
+<body>
+	<h1 align="center">My first view</h1>
+	
+	<p th:text="${faculte}"></p>
+	
+	<h3 th:text="${prof}"></h3>
+	
+	<ol>
+	<li  th:each="name : ${names}" th:text="${name}"></li>
+	</ol>
+</body>
+</html>
